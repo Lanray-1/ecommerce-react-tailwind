@@ -1,0 +1,21 @@
+.bar {
+  background-color: var(--text);
+  color: var(--surface);
+  text-align: center;
+}
+
+.message {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+@media (min-width: 48rem) {
+  .message {
+    font-size: 0.875rem;
+  }
+}
